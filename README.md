@@ -1,6 +1,8 @@
 About
 =====
 
+<img src="http://images.techhive.com/images/article/2015/10/goldfish_jumping_success_promotion-100622543-primary.idge.jpg" alt="Drawing" style="width: 250px;"/>
+
 ![Fish](http://images.techhive.com/images/article/2015/10/goldfish_jumping_success_promotion-100622543-primary.idge.jpg =250x)
 and 
 ![Docker](https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png =250x)
