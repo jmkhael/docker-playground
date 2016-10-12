@@ -1,9 +1,9 @@
 About
 =====
 
-![Fish](http://images.techhive.com/images/article/2015/10/goldfish_jumping_success_promotion-100622543-primary.idge.jpg)
+![Fish](http://images.techhive.com/images/article/2015/10/goldfish_jumping_success_promotion-100622543-primary.idge.jpg =250x)
 and 
-![Docker](https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png)
+![Docker](https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png =250x)
 
 # Hello Docker
 >In Dockerland, there are Registries, images and there are containers. The three are closely intertwined, but distinct.
