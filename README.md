@@ -1,11 +1,11 @@
 About
 =====
 
-<img src="http://images.techhive.com/images/article/2015/10/goldfish_jumping_success_promotion-100622543-primary.idge.jpg" alt="Fish" style="width: 50px;"/>
+<img src="http://images.techhive.com/images/article/2015/10/goldfish_jumping_success_promotion-100622543-primary.idge.jpg" alt="Fish" style="width: 50px; height: 50px"/>
 
 +
  
-<img src="https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png" alt="Whale" style="width: 50px;"/>
+<img src="https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png" alt="Whale" style="width: 50px; height: 50px"/>
 
 # Hello Docker
 >In Dockerland, there are Registries, images and there are containers. The three are closely intertwined, but distinct.
