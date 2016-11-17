@@ -1,14 +1,7 @@
 "use strict"
 const http = require('http');
-const os = require('os');
-
 const RxHttpRequest = require('rx-http-request').RxHttpRequest;
 var Rx = require('rxjs/Rx');
-
-var Client = require('node-rest-client').Client;
-var client = new Client();
-
-let hostname = os.hostname();
 
 function hello_world() {
   return Rx.Observable.concat(
