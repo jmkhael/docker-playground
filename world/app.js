@@ -5,5 +5,5 @@ const os = require('os');
 let hostname = os.hostname();
 
 http.createServer((req, res) => {  
-  res.end('Hello, New Docker world from ' + hostname + '.\n');
+  res.end('world');
 }).listen(5000);
