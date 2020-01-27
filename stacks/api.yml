@@ -7,6 +7,7 @@ services:
     deploy:
       labels:
         - "traefik.http.routers.hello.rule=Host(`hello.api.user.io`)"
+        - "traefik.http.services.hello-svc.loadbalancer.server.port=5000"
         - "traefik.docker.network=api_api-network"
     networks:
       - api-network
@@ -17,6 +18,7 @@ services:
     deploy:
       labels:
         - "traefik.http.routers.world.rule=Host(`world.api.user.io`)"
+        - "traefik.http.services.world-svc.loadbalancer.server.port=5000"
         - "traefik.docker.network=api_api-network"
     networks:
       - api-network
@@ -27,6 +29,7 @@ services:
     deploy:
       labels:
         - "traefik.http.routers.helloworld.rule=Host(`hello-world.api.user.io`)"
+        - "traefik.http.services.hello-world-svc.loadbalancer.server.port=5000"
         - "traefik.docker.network=api_api-network"
     networks:
       - api-network
