@@ -1,0 +1,21 @@
+version: "3.0"
+services:
+
+  hello-svc:
+    # A container that exposes an API to reply with a Hello
+    image: jmkhael/hello:0.0.1
+    labels:
+      - "traefik.http.routers.hello.rule=Host(`hello.api.user.io`)"
+
+  world-svc:
+    # A container that exposes an API to reply with world
+    image: jmkhael/world:0.0.1
+    labels:
+      - "traefik.http.routers.world.rule=Host(`world.api.user.io`)"
+
+  hello-world-svc:
+    # A container that exposes an API to reply with Hello world by calling above two services
+    image: jmkhael/hello-world:0.0.1-rc1
+    labels:
+      - "traefik.http.routers.helloworld.rule=Host(`helloworld.api.user.io`)"
+
