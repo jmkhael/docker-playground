@@ -21,7 +21,7 @@ services:
     # A container that exposes an API to reply with Hello world by calling above two services
     image: jmkhael/hello-world:0.0.1-rc1
     labels:
-      - "traefik.http.routers.helloworld.rule=Host(`helloworld.api.user.io`)"
+      - "traefik.http.routers.helloworld.rule=Host(`hello-world.api.user.io`)"
     networks:
       - api-network
 
