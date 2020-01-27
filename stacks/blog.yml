@@ -8,6 +8,8 @@ services:
       - "traefik.http.routers.blog.rule=Host(`blog.user.io`)"
     networks:
       - blog-network
+    ports:
+      - 2368:2368
 
 networks:
   blog-network:
