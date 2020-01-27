@@ -1,2 +1,2 @@
 FROM ubuntu:latest
-MAINTAINER Stratus Clay "calclayer@murex.com"
+MAINTAINER Johnny Mkhael "johnny.mkhael@gmail.com"

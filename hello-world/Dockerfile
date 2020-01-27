@@ -1,5 +1,5 @@
 FROM mhart/alpine-node:latest
-MAINTAINER Stratus Clay "calclayer@murex.com"
+MAINTAINER Johnny Mkhael "johnny.mkhael@gmail.com"
 COPY package.json /
 RUN npm install
 ADD ./app.js /app.js
