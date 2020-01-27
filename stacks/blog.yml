@@ -1,0 +1,13 @@
+version: "3.0"
+services:
+
+  blog:
+    # A container that exposes an API to show its IP address
+    image: ghost
+    labels:
+      - "traefik.http.routers.blog.rule=Host(`blog.user.io`)"
+    networks:
+      - blog-network
+
+networks:
+  blog-network:

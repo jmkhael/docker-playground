@@ -16,6 +16,9 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     networks:
       - api_api-network
+      - blog_blog-network
 networks:
   api_api-network:
+    external: true
+  blog_blog-network:
     external: true
