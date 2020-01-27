@@ -6,16 +6,24 @@ services:
     image: jmkhael/hello:0.0.1
     labels:
       - "traefik.http.routers.hello.rule=Host(`hello.api.user.io`)"
+    networks:
+      - api-network
 
   world-svc:
     # A container that exposes an API to reply with world
     image: jmkhael/world:0.0.1
     labels:
       - "traefik.http.routers.world.rule=Host(`world.api.user.io`)"
+    networks:
+      - api-network
 
   hello-world-svc:
     # A container that exposes an API to reply with Hello world by calling above two services
     image: jmkhael/hello-world:0.0.1-rc1
     labels:
       - "traefik.http.routers.helloworld.rule=Host(`helloworld.api.user.io`)"
+    networks:
+      - api-network
 
+networks:
+  api-network:
