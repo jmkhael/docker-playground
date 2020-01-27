@@ -27,3 +27,4 @@ services:
 
 networks:
   api-network:
+    driver: overlay
